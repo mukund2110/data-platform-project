@@ -1,2 +1,2 @@
-def save_posts(df):
-    df.to_csv("data/processed/posts.csv", index=False)
+def save_posts(df, processed_file):
+    df.to_csv(processed_file, index=False)

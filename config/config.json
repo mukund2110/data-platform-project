@@ -1,0 +1,5 @@
+{
+    "url": "https://jsonplaceholder.typicode.com/posts",
+    "raw_file": "data/raw/posts.json",
+    "processed_file": "data/processed/posts.csv"
+}

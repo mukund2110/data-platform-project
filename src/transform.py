@@ -1,7 +1,7 @@
 import pandas as pd
 
-def transform_data():
-    df = pd.read_json("data/raw/posts.json")
+def transform_data(raw_file):
+    df = pd.read_json(raw_file)
     df = df[["userId", "id", "title"]]
     return df
 
