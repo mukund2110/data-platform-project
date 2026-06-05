@@ -20,4 +20,4 @@ Issues:
 - Config file was a series type json file, pd.read_json didnt wrong so read file was the best option, even pd.read_json can be used with typ = "series" 
 
 Questions:
-- How confident are u with the code done can u do it from Scratch again?
+- How confident are u with the code done can u do it from Scratch again? Yes was able to do it 😅
