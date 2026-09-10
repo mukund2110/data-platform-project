@@ -2,6 +2,7 @@ import pandas as pd
 
 def transform_data(raw_file):
     print("Transforming data...")
+    raw_file = str(raw_file)
     if not raw_file.endswith(".json"):
         raise ValueError("Input file must be a JSON file.")
     df = pd.read_json(raw_file)
