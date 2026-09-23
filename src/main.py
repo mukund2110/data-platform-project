@@ -14,7 +14,7 @@ def main():
         df = transform.transform_data(raw_file)
         load.save_posts(df, processed_file)
     except Exception as e:
-        print(f"Pipeline failed due to: {e}") 
+        print(f"Pipeline failed: {type(e).__name__}: {e}")
 
 if __name__ == "__main__":
     main()
