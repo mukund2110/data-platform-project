@@ -11,7 +11,7 @@ def transform_data(raw_file):
     if not all(col in df.columns for col in ["userId", "id", "title"]):
         raise ValueError("The DataFrame does not contain the required columns: 'userId', 'id', 'title'.")
     df = df[["userId", "id", "title"]]
-    print("Data transformed successfully.")
+    print("Data transformed.")
     return df
 
  

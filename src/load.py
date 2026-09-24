@@ -8,4 +8,4 @@ def save_posts(df, processed_file):
     if df.empty:
         raise ValueError("The DataFrame is empty.")
     df.to_csv(processed_file, index=False)
-    print("Data loaded successfully.")
+    print("Data loaded.")
