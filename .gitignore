@@ -5,3 +5,4 @@ __pycache__/
 *.pyc
 test_data.json
 test_data.csv
+.vscode
